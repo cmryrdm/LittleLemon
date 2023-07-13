@@ -4,7 +4,7 @@
 brew install python  
 brew install mysql  
   
-## To activate virtual environment inside the folder
+## To activate virtual environment inside the directory
 pipenv shell  
   
 ## To install dependencies
