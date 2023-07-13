@@ -1,31 +1,36 @@
 # littlelemon
-Meta Back-End Developer Capstone
+# Meta Back-End Developer Capstone
 
-#### Setup instructions ####
+# Setup instructions
 
 ## Python and MySQL installation on Mac with homebrew
-brew install python
-brew install mysql
+brew install python  
+brew install mysql  
+  
 ## To activate virtual environment inside the folder
-pipenv shell
+pipenv shell  
+  
 ## To install dependencies
-pipenv install django
-pipenv install djangorestframework
-pipenv install djoser
-pipenv install mysqlclient 
+pipenv install django  
+pipenv install djangorestframework  
+pipenv install djoser  
+pipenv install mysqlclient  
+  
 ## "mysql.server start" is required to start mysql server
 ## "mysql.server stop" is required to stop the server.
-
-
+  
 ## To start project
-django-admin startproject littlelemon .
+django-admin startproject littlelemon .  
+  
 ## To start application (Inside working directory, manage.py is required thereafter.)
-python manage.py startapp restaurant
+python manage.py startapp restaurant  
+  
 ## apply two migration commands, configure (username, password at least) DATABASES in settings.py file.
-python manage.py makemigrations
-python manage.py migrate
+python manage.py makemigrations  
+python manage.py migrate  
+  
 ## To run server
-python manage.py runserver
+python manage.py runserver  
 ## Go to "http://localhost:8000/" url, keep up the good work!
 
 
