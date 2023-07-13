@@ -1,4 +1,4 @@
-<span style="color: blue;">Meta Back-End Developer Capstone</span>
+***Meta Back-End Developer Capstone</span>
 # littlelemon setup instructions
 
 ## Python and MySQL installation on Mac with homebrew
