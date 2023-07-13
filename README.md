@@ -20,10 +20,10 @@ pipenv install mysqlclient
 ## To start project
 django-admin startproject littlelemon .  
   
-## To start application (Inside working directory, manage.py is required thereafter.)
+## To start application (manage.py is required inside working directory thereafter.)
 python manage.py startapp restaurant  
   
-## apply two migration commands, configure (username, password at least) DATABASES in settings.py file.
+## apply two migration commands, configure DATABASES (username, password at least) in settings.py file.
 python manage.py makemigrations  
 python manage.py migrate  
   
