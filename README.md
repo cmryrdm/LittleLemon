@@ -28,7 +28,7 @@ python manage.py migrate
   
 ## To run server
 python manage.py runserver  
-## Go to "http://localhost:8000/" url, keep up the good work!
+## Go to url "http://localhost:8000/". keep up the good work!
 
 
 
