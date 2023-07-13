@@ -1,7 +1,5 @@
-# littlelemon
 # Meta Back-End Developer Capstone
-
-# Setup instructions
+# littlelemon Setup instructions
 
 ## Python and MySQL installation on Mac with homebrew
 brew install python  
